@@ -1,0 +1,53 @@
+/* src/components/TimeZoneDashboard.css */
+.full{
+  background-image: url('C:\Users\Devadharshini\Downloads\fulllll\my-react-app\src\components\download.png'); /* Update with the actual path */
+  background-size: cover;         /* Make the image cover the entire area */
+  background-position: center;    /* Center the image */
+  background-repeat: no-repeat;   /* Avoid repeating the image */
+  color: white; 
+}
+.timezone-dashboard {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  /* Avoid repeating the image */
+  color: rgb(37, 40, 123);                   /* Change text color to contrast with background */
+}
+
+.timezone-dashboard h2 {
+  margin-bottom: 20px;
+}
+
+.timezone-dashboard button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #f05b22;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.timezone-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  text-align: left;
+}
+
+.timezone-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(249, 249, 249, 0.8); /* Slight transparency */
+}
+
+.timezone-item strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.timezone-item span {
+  font-size: 18px;
+  color: #333;
+}
